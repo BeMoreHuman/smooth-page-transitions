@@ -1,0 +1,29 @@
+
+// .home {
+//   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+// }
+// .about {
+//   background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+// }
+
+h2 {
+  margin-top: 0;
+}
+section {
+  transition: all .5s ease;
+}
+
+
+.nav {
+  &__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  &__link {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
